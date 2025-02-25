@@ -14,7 +14,7 @@ w3 = Web3(Web3.HTTPProvider(RPC_URL))
 if w3.is_connected():
     print(" Connected to Legion Crypto")
 else:
-    print(" Connection failed")
+    print(" Connection faile1d")
 
 print(f"Performing blockchain info check: w3.eth.get_block_number()")
 print(f"Web3 is connected: {w3.is_connected}")
